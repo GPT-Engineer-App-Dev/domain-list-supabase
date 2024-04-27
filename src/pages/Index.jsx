@@ -55,7 +55,7 @@ const Index = () => {
       <List spacing={3}>
         {domains.map((domain, index) => (
           <ListItem key={index}>
-            <Text>{domain}</Text>
+            <Text>{domain.name}</Text>
           </ListItem>
         ))}
       </List>
